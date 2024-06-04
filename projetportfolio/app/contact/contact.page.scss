@@ -1,0 +1,62 @@
+.contact{
+    background-color: aqua;
+    padding: 20px;
+
+}
+.email{
+    margin-left: 900px;
+    margin-top: -150px;
+     
+
+}
+.contact-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .contact-card {
+    max-width: 33%;
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: -18em;
+  }
+  .h2{
+    background-color: aqua;
+    border-radius: 15px;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein{
+    from{
+        margin-right: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width:100%;
+    } 
+  }
+
+  .h1{
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein{
+    from{
+        margin-right: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width:100%;
+    } 
+  }
+  
+  

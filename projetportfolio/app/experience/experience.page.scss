@@ -1,0 +1,105 @@
+.experience{
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    text-align: center;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein{
+    from{
+        margin-right: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width:100%;
+    } 
+}
+
+.info{
+    text-align: left;
+}
+
+.vertical-line{
+    border-left: 8px solid aqua;
+    height: 600px;
+    margin-left: 20em;
+
+}
+.resume-title{
+    margin-left: 2em;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein{
+    from{
+        margin-right: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width:100%;
+    } 
+}
+
+.serve{
+    margin-left: 2em;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein{
+    from{
+        margin-right: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width:100%;
+    } 
+}
+
+
+.bonjour{
+    margin-left: 5em;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein{
+    from{
+        margin-right: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width:100%;
+    } 
+}
+
+
+.resume-item{
+    margin-left: 2em;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein{
+    from{
+        margin-right: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width:100%;
+    } 
+}
+
+
+.vertical-line1{
+    border-left: 8px solid aqua;
+    height: 600px;
+    margin-left: 20em;
+    margin-left: 60em;
+    margin-top: -600px;
+
+}

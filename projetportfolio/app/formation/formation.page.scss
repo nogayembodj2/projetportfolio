@@ -1,0 +1,40 @@
+.ion-content{
+    font-family: Arial, sans-serif;
+    
+  }
+
+  .education {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .education-item {
+    margin-bottom: 20px;
+    margin-top: 2em;
+    margin-left: 10em;
+  }
+
+  .degree {
+    font-weight: bold;
+  }
+  .pied{
+    text-align: center;
+  }
+  hr{
+    border-top: 10px solid aqua;
+
+  }
+  .eventail{
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein{
+    from{
+        margin-right: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width:100%;
+    } 
+  }
